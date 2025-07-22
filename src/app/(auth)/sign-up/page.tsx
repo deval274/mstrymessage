@@ -141,6 +141,7 @@ export default function SignUpForm(){
                   {...field}
                   />
                 </FormControl>
+                  <p className=' text-gray-400 text-sm'>We will send you a verification code</p>
                 <FormMessage />
               </FormItem>
             )}
